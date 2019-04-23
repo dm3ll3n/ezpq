@@ -18,7 +18,7 @@
    -  `collect <#collect>`__
    -  `map <#map>`__
    -  `starmap <#starmap>`__
-   -  `startmapkw <#startmapkw>`__
+   -  `starmapkwkw <#starmapkwkw>`__
    -  `dispose <#dispose>`__
 
 -  `Synchronous Lanes <#synchronous-lanes>`__
@@ -460,7 +460,7 @@ each nested list being unpacked as arguments to the function.
        
    [x['output'] for x in output[:10]]
 
-startmapkw
+starmapkwkw
 ~~~~~~~~~~
 
 Same as ``starmap``, but operations on a list of *dicts* to be expanded
