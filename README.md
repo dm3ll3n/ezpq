@@ -15,7 +15,7 @@
     -   [collect](#collect)
     -   [map](#map)
     -   [starmap](#starmap)
-    -   [starmapkwkw](#starmapkwkw)
+    -   [starmapkw](#starmapkw)
     -   [dispose](#dispose)
 -   [Synchronous Lanes](#synchronous-lanes)
     -   [Lane Error Handling](#lane-error-handling)
@@ -425,7 +425,7 @@ with ezpq.Queue(10) as Q:
 [x['output'] for x in output[:10]]
 ```
 
-### starmapkwkw
+### starmapkw
 
 Same as `starmap`, but operations on a list of *dicts* to be expanded as
 kwargs to the function.
